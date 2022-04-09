@@ -1,0 +1,81 @@
+/* Moblie */
+@media screen and (max-width: 46.1875em){
+    #slider {
+        /* margin-top: 0; */
+    }
+    
+    #slider .img-content{
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+        /* height: auto;   */
+        /* overflow: hidden; */
+    }
+
+    #nav .nav {
+        display: inline-block;
+        /* height: auto;   */
+        /* overflow: hidden; */
+    }
+
+    #nav  li:hover {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header{
+        overflow: hidden;
+        /* position: relative; */
+    }
+
+    #header .search-button{
+        display: none;
+    }
+
+    #header .menu-button{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .menu-button{
+        /* display: none; */
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .team-section img {
+        width: 60%;
+        height: auto;
+    }
+
+    #content .place-content {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #content .s-col-full {
+        width: 100%;
+    }
+
+    #content .contact-info {
+        margin-bottom: 16px;
+    }
+
+    #content .mt-8{
+        margin-top: 8px;
+    }
+
+}
